@@ -61,7 +61,9 @@ const imageSets = [
 function diplayImages(imgSets){
     const newItems = imgSets.map((item)=> {
       return `
-        <div><img src=${item.images} alt=${item.name}/></div>` 
+        <div>
+        <img src=${item.images} alt=${item.name}/>
+        </div>` 
     })
 
    imageContainer.innerHTML = newItems

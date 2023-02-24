@@ -56,12 +56,13 @@ a{
 }
 
 .submission{
-    width: 1000px;     
+    width: 70%;    
+    margin-bottom: 80px; 
 }
 
 .card img{
-    width: 445px;
-    height: 243;
+    width: 490px;
+    height: 250px;
 }
 .title{
     display: flex;
@@ -78,6 +79,23 @@ a{
     flex-wrap: wrap;   
     gap: 40px ;
     justify-content: center;
+}
+
+.card-text{
+    display: flex;
+    align-items: center;
+    
+}
+
+.card p{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card p span{
+    font-size: 12px;
+    margin-left: 240px;
+    font-weight: 600;
 }
 
 /* ==== form ====== */

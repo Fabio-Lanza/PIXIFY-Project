@@ -77,3 +77,8 @@ button{
     background-color: transparent;
     cursor: pointer;
 }
+
+button a{
+    text-decoration: none;
+    color: var(--text-color);
+}

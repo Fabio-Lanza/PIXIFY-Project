@@ -112,3 +112,9 @@ a{
     font-size: 36px;
     cursor: pointer;
 }
+
+button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
