@@ -36,7 +36,7 @@ body{
 
 .banner{
     height: 905px;
-    background-image: url(./pixify-starter-code/assets/homepage.jpg);
+    background-image: url(./assets/homepage.jpg);
     background-size: cover;
     background-position: center;
     object-fit: cover;
