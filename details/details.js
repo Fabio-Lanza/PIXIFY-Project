@@ -79,7 +79,8 @@ const next = document.querySelector("#next");
 next.addEventListener("click", () => {
   currentImg--;
   if (count > 5) {
-    count = 1}
+    count = 1;
+  }
   span.innerHTML = `${count++} of 5`;
   updateImage();
 });
@@ -87,8 +88,9 @@ next.addEventListener("click", () => {
 const prev = document.querySelector("#prev");
 prev.addEventListener("click", () => {
   currentImg++;
-  if (count <= 1){
-    count = 1} 
+  if (count <= 1) {
+    count = 1;
+  }
   span.innerHTML = `${count--} of 5`;
   updateImage();
 });
